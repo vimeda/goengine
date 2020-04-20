@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/golang/mock/gomock"
-	"github.com/hellofresh/goengine"
-	"github.com/hellofresh/goengine/mocks"
+	"github.com/vimeda/goengine"
+	"github.com/vimeda/goengine/mocks"
 	"github.com/stretchr/testify/assert"
 )
 

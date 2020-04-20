@@ -9,12 +9,12 @@ import (
 	"time"
 
 	"github.com/golang/mock/gomock"
-	"github.com/hellofresh/goengine"
-	"github.com/hellofresh/goengine/aggregate"
-	"github.com/hellofresh/goengine/driver/inmemory"
-	"github.com/hellofresh/goengine/metadata"
-	"github.com/hellofresh/goengine/mocks"
-	aggregateMocks "github.com/hellofresh/goengine/mocks/aggregate"
+	"github.com/vimeda/goengine"
+	"github.com/vimeda/goengine/aggregate"
+	"github.com/vimeda/goengine/driver/inmemory"
+	"github.com/vimeda/goengine/metadata"
+	"github.com/vimeda/goengine/mocks"
+	aggregateMocks "github.com/vimeda/goengine/mocks/aggregate"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

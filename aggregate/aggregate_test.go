@@ -7,9 +7,9 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	"github.com/hellofresh/goengine/aggregate"
-	mocks "github.com/hellofresh/goengine/mocks/aggregate"
 	"github.com/stretchr/testify/assert"
+	"github.com/vimeda/goengine/aggregate"
+	mocks "github.com/vimeda/goengine/mocks/aggregate"
 )
 
 func TestGenerateID(t *testing.T) {

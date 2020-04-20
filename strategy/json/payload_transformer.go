@@ -6,9 +6,9 @@ import (
 	"errors"
 	"reflect"
 
-	"github.com/hellofresh/goengine"
-	reflectUtil "github.com/hellofresh/goengine/internal/reflect"
-	"github.com/hellofresh/goengine/strategy/json/internal"
+	"github.com/vimeda/goengine"
+	reflectUtil "github.com/vimeda/goengine/internal/reflect"
+	"github.com/vimeda/goengine/strategy/json/internal"
 )
 
 var (

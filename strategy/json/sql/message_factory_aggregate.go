@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hellofresh/goengine"
-	"github.com/hellofresh/goengine/aggregate"
-	driverSQL "github.com/hellofresh/goengine/driver/sql"
-	"github.com/hellofresh/goengine/metadata"
+	"github.com/vimeda/goengine"
+	"github.com/vimeda/goengine/aggregate"
+	driverSQL "github.com/vimeda/goengine/driver/sql"
+	"github.com/vimeda/goengine/metadata"
 )
 
 // Ensure that AggregateChangedFactory satisfies the MessageFactory interface

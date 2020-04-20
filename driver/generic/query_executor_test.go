@@ -8,11 +8,11 @@ import (
 	"time"
 
 	"github.com/golang/mock/gomock"
-	"github.com/hellofresh/goengine"
-	"github.com/hellofresh/goengine/driver/generic"
-	"github.com/hellofresh/goengine/driver/inmemory"
-	"github.com/hellofresh/goengine/metadata"
-	"github.com/hellofresh/goengine/mocks"
+	"github.com/vimeda/goengine"
+	"github.com/vimeda/goengine/driver/generic"
+	"github.com/vimeda/goengine/driver/inmemory"
+	"github.com/vimeda/goengine/metadata"
+	"github.com/vimeda/goengine/mocks"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

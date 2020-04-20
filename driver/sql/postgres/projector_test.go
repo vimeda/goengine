@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hellofresh/goengine"
+	"github.com/vimeda/goengine"
 	"github.com/stretchr/testify/assert"
 )
 

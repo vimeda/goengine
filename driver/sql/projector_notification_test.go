@@ -6,8 +6,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/hellofresh/goengine"
-	"github.com/hellofresh/goengine/aggregate"
+	"github.com/vimeda/goengine"
+	"github.com/vimeda/goengine/aggregate"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

@@ -5,8 +5,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/hellofresh/goengine"
-	"github.com/hellofresh/goengine/driver/sql"
+	"github.com/vimeda/goengine"
+	"github.com/vimeda/goengine/driver/sql"
 	"github.com/mailru/easyjson"
 	"github.com/streadway/amqp"
 )

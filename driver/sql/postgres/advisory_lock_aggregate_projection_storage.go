@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hellofresh/goengine"
-	driverSQL "github.com/hellofresh/goengine/driver/sql"
+	"github.com/vimeda/goengine"
+	driverSQL "github.com/vimeda/goengine/driver/sql"
 	"github.com/pkg/errors"
 )
 

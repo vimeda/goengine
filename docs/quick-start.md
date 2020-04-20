@@ -11,7 +11,7 @@ So let's get started building our awesome new Bank.
 Our new bank will have customer bank accounts so let's define our BankAccount aggregate root.
 
 ```golang
-import "github.com/hellofresh/goengine/aggregate"
+import "github.com/vimeda/goengine/aggregate"
 
 // Ensure BankAccount implements the aggregate.Root interface
 var _ aggregate.Root = &BankAccount{}
@@ -141,8 +141,8 @@ type casting for each aggregate root. So let's define the BankAccount Repository
 import (
 	"context"
 
-	"github.com/hellofresh/goengine"
-	"github.com/hellofresh/goengine/aggregate"
+	"github.com/vimeda/goengine"
+	"github.com/vimeda/goengine/aggregate"
 )
 
 // BankAccountTypeName is the name used to identify a bank account within the event store
@@ -203,9 +203,9 @@ import (
 	"database/sql"
 	"os"
 
-	"github.com/hellofresh/goengine"
-	"github.com/hellofresh/goengine/strategy/json"
-	"github.com/hellofresh/goengine/strategy/json/sql/postgres"
+	"github.com/vimeda/goengine"
+	"github.com/vimeda/goengine/strategy/json"
+	"github.com/vimeda/goengine/strategy/json/sql/postgres"
 )
 
 func main() {
@@ -292,7 +292,7 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/hellofresh/goengine"
+	"github.com/vimeda/goengine"
 )
 
 var _ goengine.Projection = &BankTotalsProjection{}
@@ -336,8 +336,8 @@ Great now that we have our projection let's run it and listen to the event store
 import (
 	"time"
 
-	driverSQL "github.com/hellofresh/goengine/driver/sql"
-	"github.com/hellofresh/goengine/extension/pq"
+	driverSQL "github.com/vimeda/goengine/driver/sql"
+	"github.com/vimeda/goengine/extension/pq"
 )
 
 func main() {
@@ -368,5 +368,5 @@ func main() {
 ```
 *In production environments it's a good idea to run any projection separate from the main application, such as having a separated application binary only responsible for running the projections.*
 
-[repo]: https://github.com/hellofresh/goengine
-[aggregate repository]: https://github.com/hellofresh/goengine/tree/master/aggregate/repository.go
+[repo]: https://github.com/vimeda/goengine
+[aggregate repository]: https://github.com/vimeda/goengine/tree/master/aggregate/repository.go

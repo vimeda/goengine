@@ -9,11 +9,11 @@ import (
 	"time"
 
 	"github.com/golang/mock/gomock"
-	"github.com/hellofresh/goengine"
-	"github.com/hellofresh/goengine/metadata"
-	"github.com/hellofresh/goengine/mocks"
-	"github.com/hellofresh/goengine/strategy/json/internal"
-	"github.com/hellofresh/goengine/strategy/json/sql/postgres"
+	"github.com/vimeda/goengine"
+	"github.com/vimeda/goengine/metadata"
+	"github.com/vimeda/goengine/mocks"
+	"github.com/vimeda/goengine/strategy/json/internal"
+	"github.com/vimeda/goengine/strategy/json/sql/postgres"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

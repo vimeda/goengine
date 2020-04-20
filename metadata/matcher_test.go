@@ -5,7 +5,7 @@ package metadata_test
 import (
 	"testing"
 
-	"github.com/hellofresh/goengine/metadata"
+	"github.com/vimeda/goengine/metadata"
 	"github.com/stretchr/testify/assert"
 )
 

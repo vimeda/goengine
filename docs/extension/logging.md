@@ -4,8 +4,8 @@ In order to use [logrus] as your logger GoEngine provides a wrapper for both `*l
 
 ```golang
 import (
-	"github.com/hellofresh/goengine"
-	goengineLogger "github.com/hellofresh/goengine/extension/logrus"
+	"github.com/vimeda/goengine"
+	goengineLogger "github.com/vimeda/goengine/extension/logrus"
 	"github.com/sirupsen/logrus"
 )
 
@@ -20,8 +20,8 @@ In order to use [zap] as your logger GoEngine provides a wrapper for `*zap.Logge
 
 ```golang
 import (
-	"github.com/hellofresh/goengine"
-	goengineLogger "github.com/hellofresh/goengine/extension/zap"
+	"github.com/vimeda/goengine"
+	goengineLogger "github.com/vimeda/goengine/extension/zap"
 	"go.uber.org/zap"
 )
 

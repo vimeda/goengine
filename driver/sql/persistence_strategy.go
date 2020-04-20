@@ -1,8 +1,8 @@
 package sql
 
 import (
-	"github.com/hellofresh/goengine"
-	"github.com/hellofresh/goengine/metadata"
+	"github.com/vimeda/goengine"
+	"github.com/vimeda/goengine/metadata"
 )
 
 // PersistenceStrategy interface describes strategy of persisting messages in the database

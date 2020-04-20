@@ -5,9 +5,9 @@ package inmemory_test
 import (
 	"testing"
 
-	"github.com/hellofresh/goengine/driver/inmemory"
-	anotherpayload "github.com/hellofresh/goengine/internal/mocks/another/payload"
-	"github.com/hellofresh/goengine/internal/mocks/payload"
+	"github.com/vimeda/goengine/driver/inmemory"
+	anotherpayload "github.com/vimeda/goengine/internal/mocks/another/payload"
+	"github.com/vimeda/goengine/internal/mocks/payload"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -3,7 +3,7 @@ package sql
 import (
 	"database/sql"
 
-	"github.com/hellofresh/goengine"
+	"github.com/vimeda/goengine"
 )
 
 // MessageFactory reconstruct messages from the database

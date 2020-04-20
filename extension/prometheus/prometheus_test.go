@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hellofresh/goengine/driver/sql"
-	goenginePrometheus "github.com/hellofresh/goengine/extension/prometheus"
+	"github.com/vimeda/goengine/driver/sql"
+	goenginePrometheus "github.com/vimeda/goengine/extension/prometheus"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

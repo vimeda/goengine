@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/hellofresh/goengine"
+	"github.com/vimeda/goengine"
 	"github.com/pkg/errors"
 )
 

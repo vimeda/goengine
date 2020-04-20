@@ -13,7 +13,7 @@ This project adheres to the Contributor Covenant [code of conduct](CODE_OF_CONDU
 By participating, you are expected to uphold this code.
 Please report unacceptable behavior to [engineering@hellofresh.com](mailto:engineering@hellofresh.com).
 
-We accept contributions via Pull Requests on [Github](https://github.com/hellofresh/goengine).
+We accept contributions via Pull Requests on [Github](https://github.com/vimeda/goengine).
 
 ## How Can I Contribute?
 

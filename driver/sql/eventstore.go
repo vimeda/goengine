@@ -3,8 +3,8 @@ package sql
 import (
 	"context"
 
-	"github.com/hellofresh/goengine"
-	"github.com/hellofresh/goengine/metadata"
+	"github.com/vimeda/goengine"
+	"github.com/vimeda/goengine/metadata"
 )
 
 // ReadOnlyEventStore an interface describing a readonly event store that supports providing a SQL conn

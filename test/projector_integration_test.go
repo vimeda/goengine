@@ -9,14 +9,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hellofresh/goengine"
-	"github.com/hellofresh/goengine/aggregate"
-	"github.com/hellofresh/goengine/driver/sql/postgres"
-	"github.com/hellofresh/goengine/metadata"
-	strategyJSON "github.com/hellofresh/goengine/strategy/json"
-	strategySQL "github.com/hellofresh/goengine/strategy/json/sql"
-	strategyPostgres "github.com/hellofresh/goengine/strategy/json/sql/postgres"
-	"github.com/hellofresh/goengine/test/internal"
+	"github.com/vimeda/goengine"
+	"github.com/vimeda/goengine/aggregate"
+	"github.com/vimeda/goengine/driver/sql/postgres"
+	"github.com/vimeda/goengine/metadata"
+	strategyJSON "github.com/vimeda/goengine/strategy/json"
+	strategySQL "github.com/vimeda/goengine/strategy/json/sql"
+	strategyPostgres "github.com/vimeda/goengine/strategy/json/sql/postgres"
+	"github.com/vimeda/goengine/test/internal"
 )
 
 const accountAggregateTypeName = "account"

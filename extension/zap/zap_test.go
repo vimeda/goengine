@@ -6,8 +6,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/hellofresh/goengine"
-	zapExtension "github.com/hellofresh/goengine/extension/zap"
+	"github.com/vimeda/goengine"
+	zapExtension "github.com/vimeda/goengine/extension/zap"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

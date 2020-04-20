@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hellofresh/goengine/driver/inmemory"
-	log "github.com/hellofresh/goengine/extension/logrus"
-	"github.com/hellofresh/goengine/metadata"
+	"github.com/vimeda/goengine/driver/inmemory"
+	log "github.com/vimeda/goengine/extension/logrus"
+	"github.com/vimeda/goengine/metadata"
 	"github.com/sirupsen/logrus"
 	"github.com/sirupsen/logrus/hooks/test"
 	"github.com/stretchr/testify/assert"

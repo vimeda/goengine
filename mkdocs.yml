@@ -1,6 +1,6 @@
 site_name: GoEngine
 docs_dir: docs
-repo_url: https://github.com/hellofresh/goengine
+repo_url: https://github.com/vimeda/goengine
 copyright: Copyright (c) 2019 HelloFresh
 theme:
   name: readthedocs

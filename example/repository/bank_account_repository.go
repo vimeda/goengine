@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 
-	"github.com/hellofresh/goengine"
-	"github.com/hellofresh/goengine/aggregate"
+	"github.com/vimeda/goengine"
+	"github.com/vimeda/goengine/aggregate"
 )
 
 // BankAccountTypeName is the name used to identify a bank account within the event store

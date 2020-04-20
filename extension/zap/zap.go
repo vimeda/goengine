@@ -1,7 +1,7 @@
 package zap
 
 import (
-	"github.com/hellofresh/goengine"
+	"github.com/vimeda/goengine"
 	"go.uber.org/zap"
 )
 

@@ -4,8 +4,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/hellofresh/goengine"
-	"github.com/hellofresh/goengine/metadata"
+	"github.com/vimeda/goengine"
+	"github.com/vimeda/goengine/metadata"
 )
 
 var (

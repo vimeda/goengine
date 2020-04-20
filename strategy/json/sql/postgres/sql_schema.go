@@ -3,8 +3,8 @@ package postgres
 import (
 	"fmt"
 
-	"github.com/hellofresh/goengine"
-	"github.com/hellofresh/goengine/driver/sql/postgres"
+	"github.com/vimeda/goengine"
+	"github.com/vimeda/goengine/driver/sql/postgres"
 )
 
 const sqlFuncEventStreamNotify = `DO LANGUAGE plpgsql $EXIST$

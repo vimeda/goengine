@@ -8,14 +8,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hellofresh/goengine"
-	"github.com/hellofresh/goengine/driver/sql/postgres"
-	"github.com/hellofresh/goengine/metadata"
-	"github.com/hellofresh/goengine/mocks"
-	"github.com/hellofresh/goengine/strategy/json"
-	strategySQL "github.com/hellofresh/goengine/strategy/json/sql"
-	strategyPostgres "github.com/hellofresh/goengine/strategy/json/sql/postgres"
-	"github.com/hellofresh/goengine/test/internal"
+	"github.com/vimeda/goengine"
+	"github.com/vimeda/goengine/driver/sql/postgres"
+	"github.com/vimeda/goengine/metadata"
+	"github.com/vimeda/goengine/mocks"
+	"github.com/vimeda/goengine/strategy/json"
+	strategySQL "github.com/vimeda/goengine/strategy/json/sql"
+	strategyPostgres "github.com/vimeda/goengine/strategy/json/sql/postgres"
+	"github.com/vimeda/goengine/test/internal"
 	"github.com/stretchr/testify/suite"
 )
 

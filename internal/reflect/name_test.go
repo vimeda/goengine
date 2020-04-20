@@ -5,9 +5,9 @@ package reflect_test
 import (
 	"testing"
 
-	anotherpayload "github.com/hellofresh/goengine/internal/mocks/another/payload"
-	"github.com/hellofresh/goengine/internal/mocks/payload"
-	"github.com/hellofresh/goengine/internal/reflect"
+	anotherpayload "github.com/vimeda/goengine/internal/mocks/another/payload"
+	"github.com/vimeda/goengine/internal/mocks/payload"
+	"github.com/vimeda/goengine/internal/reflect"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -19,12 +19,12 @@ func TestFullTypeNameOf(t *testing.T) {
 	}{
 		{
 			"payload",
-			"github.com/hellofresh/goengine/internal/mocks/payload.Payload",
+			"github.com/vimeda/goengine/internal/mocks/payload.Payload",
 			payload.Payload{},
 		},
 		{
 			"another payload",
-			"github.com/hellofresh/goengine/internal/mocks/another/payload.Payload",
+			"github.com/vimeda/goengine/internal/mocks/another/payload.Payload",
 			anotherpayload.Payload{},
 		},
 		{

@@ -3,7 +3,7 @@ package main
 import (
 	"errors"
 
-	"github.com/hellofresh/goengine/aggregate"
+	"github.com/vimeda/goengine/aggregate"
 )
 
 var (

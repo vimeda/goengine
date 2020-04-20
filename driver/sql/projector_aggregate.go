@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hellofresh/goengine/aggregate"
-	"github.com/hellofresh/goengine/metadata"
+	"github.com/vimeda/goengine/aggregate"
+	"github.com/vimeda/goengine/metadata"
 
-	"github.com/hellofresh/goengine"
+	"github.com/vimeda/goengine"
 )
 
 // AggregateProjector is a postgres projector used to execute a projection per aggregate instance against an event stream

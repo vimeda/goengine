@@ -18,7 +18,7 @@ import (
 	"errors"
 	"reflect"
 
-	"github.com/hellofresh/goengine/metadata"
+	"github.com/vimeda/goengine/metadata"
 )
 
 var ErrUnsupportedType = errors.New("the value is not a scalar type")
